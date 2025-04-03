@@ -1,5 +1,4 @@
-# 1.--Evaluaci-n-JS-
-# Evaluaci-n-JS
+
 Descripción
 Este proyecto es una aplicación web que permite ingresar una cantidad de números pares y calcular su suma. Está desarrollado con HTML, CSS y JavaScript.
 
