@@ -1,6 +1,6 @@
-/* Estilos generales */
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family:sans-serif;
     background: linear-gradient(135deg, #1e1e2f, #2a2a3c);
     color: white;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* Barra de navegación */
+
 nav {
     background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
     padding: 15px 0; /* Espaciado */
@@ -19,8 +19,8 @@ nav {
 nav ul {
     list-style: none; /* Sin viñetas */
     display: flex; /* Flexbox para alinear horizontalmente */
-    padding: 0; /* Sin padding */
-    margin: 0;  /* Sin margen */
+    padding: 0; 
+    margin: 0; 
 }
 
 nav ul li {
@@ -33,7 +33,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.3s ease-in-out; /* Transición suave */
+    transition: color 0.3s; /* Transición suave */
 }
 
 nav ul li a:hover {
@@ -65,11 +65,11 @@ button {
     background: linear-gradient(135deg, #ff00ff, #007bff); 
     color: white;
     font-size: 20px;
-    font-weight: bold;  /* Hace el texto en negrita */
+    font-weight: bold;  
     border: none;
-    padding: 12px 24px; /* Espaciado interno */
-    margin-top: 20px; /* Espaciado superior */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    padding: 12px 24px; 
+    margin-top: 20px; 
+    cursor: pointer; 
     border-radius: 10px; 
     transition: all 0.3s ease-in-out; /* Transición suave */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -80,13 +80,5 @@ button:hover {
     box-shadow: 0px 6px 15px rgba(255, 0, 255, 0.5);
 }
 
-/* Resultado */
-#resultado {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    color: #ffcc00;
-    text-shadow: 0px 0px 10px #ffcc00;
-}
 
 

@@ -22,5 +22,5 @@ function sumarNPares() {
     alert(`Los números pares ingresados fueron: ${numerosPares.join(", ")}`); //mostrara los numeros pares ingresado
     alert(`La suma de los números pares es: ${suma}`);// mostrara la suma de los numeros pares
 }
-
+    
 
